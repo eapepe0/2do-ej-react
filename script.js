@@ -38,7 +38,7 @@ function Navbar() {
     )
 }
 
-function Carrousel() {
+function Carrousel() { /* generamos el componente como una funcion donde devolvemos el html */
     return(
         <img src="https://images.unsplash.com/photo-1636642370467-93d378493021?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"></img>
     )
@@ -52,7 +52,7 @@ function Carrousel() {
 
 ReactDOM.render(
     <div>
-        <Navbar />
+        <Navbar /> 
         
         <Carrousel />
     </div>,
